@@ -420,7 +420,7 @@ address > ul > li:hover{
 }
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
-    
+
 }
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
@@ -861,4 +861,17 @@ address > ul > li:hover{
     transform: translateX(0%);
     
 }
+}
+@media only screen and (max-width: 375px){
+    .gununcard{
+        width: 157px;
+        height: 210px;
+        z-index: 1;
+        padding: 0;
+    }
+    .card2{
+        width: 150px;
+        
+    }
+
 }
